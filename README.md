@@ -17,4 +17,15 @@
 Notre Approche sera la suivante :
 
 Au lieu d'utiliser ce que l'on a réalisée précédemment en cours, nous avons décidé de refaire le CRUD et donc faire une partie BackEnd d'une part 
-et une partie FrontEnd d'autre part pour que cela soit plus claire
+et une partie FrontEnd d'autre part pour que cela soit plus claire.
+
+# Partie BackEnd
+
+   - Dabord, Récupérez cette base de données de restaurants : le fichier primer-dataset.json (qui se trouve dans le repertoire "restaurant-backend") et exécuter la commande suivante, qui va créer 
+une bd "test" et ajouter dedans la collection "restaurants" :
+
+    mongoimport --db test --collection restaurants --drop --file primer-dataset.json
+
+   - Vous devez lancer VScode ou tout autre IDE afin d'ouvrir le repertoire "restaurant-backend" 
+   - Exécutez node myserver.js (ou nodemon) afin de demarrer le serveur
+   - Pour afficher la liste des restaurants vous n'avez qu'a aller sur cette URL http://localhost:3333/restaurants/

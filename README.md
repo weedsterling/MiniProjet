@@ -29,3 +29,11 @@ une bd "test" et ajouter dedans la collection "restaurants" :
    - Vous devez lancer VScode ou tout autre IDE afin d'ouvrir le repertoire "restaurant-backend" 
    - Exécutez node myserver.js (ou nodemon) afin de demarrer le serveur
    - Pour afficher la liste des restaurants vous n'avez qu'a aller sur cette URL http://localhost:3333/restaurants/
+   
+# Partie FrontEnd
+
+  - En plus d'avoir demarrer le serveur, lancer VScode ou tout autre IDE afin d'ouvrir le repertoire "restaurant-frontend"
+  - Au sein de ce repertoire, se trouve egalement un fichier Readme.md qui vous donnera des indiquations quant-au démarrage du front end
+  - Une fois le frontend démaré, vous aurez acces à la page d'accueil avec un Menu Hamburger. Lorsque vous cliquerez la dessus vous verez un Menu contextuel; 
+    Cliquez sur l'icone de Restaurant list et vous aurez acces à l'ensemble des restaurants
+  - Si vous souhaitez affichez les details concernant un restaurant, cliquez juste sur le panier qui se trouve sur la photo .   
